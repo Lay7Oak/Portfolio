@@ -48,10 +48,10 @@ body {
   #projetos{
     width: 100%;
     min-height: 11.2px;
-    border-bottom-right-radius:29%;
-    border-top-left-radius:29%;
+    border-bottom-right-radius:10%;
+    border-top-left-radius:20%;
     padding: 4% 0 0 0;
-    background: linear-gradient(to right, #4a4ab0, #9391ff, #ffabf8);
+    background: linear-gradient(to right,  #4a4ab0, #9391ff, #b5b5f1);
     text-align: center;
     min-height: 50vh;
     
