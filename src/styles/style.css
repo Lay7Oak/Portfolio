@@ -1,0 +1,274 @@
+  #topo{
+    padding: 7%;
+    max-height: 20vh;
+    text-align: center;
+    display: block;
+    border-right: solid 3px #ffffff6a;
+    border-bottom-right-radius: 500px;
+  }
+
+ 
+  #lc{
+    font-size: 5rem;
+    margin-right: 60%;
+    color: #87CEFA;
+    font-family: "Fleur De Leah", cursive;
+    font-weight:lighter;
+    
+  }
+  
+  #iam{
+    padding: 8px 0 0 8px;
+    float: left;
+    margin: 0 100px ;
+    margin-right: 50%;
+    color: #98d3f7;
+    font-size: 1.7rem;
+    font-family: "Josefin Slab", serif;
+    font-weight: lighter;
+  }
+  
+  
+  .opt{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 2px ridge white;
+    border-radius: 50%;
+    
+  }
+
+  .opt:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3);
+  }
+    
+
+  .secs{
+    text-align: center;
+    margin: 7px;
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .secs h1{
+    margin-top: 10px;
+    font-size: 25pt;
+    color: #f7d884;
+    font-family: "Josefin Slab", serif;
+    font-weight: lighter;
+  }
+  
+  #projetos{
+    padding: 20px 0;
+    display: flex;
+    border-left: solid 3px #ffffff6a;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+  }
+
+    video{
+      
+      min-width: 50%;
+      min-height: 50%;
+      width: 30%;
+      height: 30%;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px;
+      
+    }
+
+   li, a{
+
+    color: #fff;
+    list-style:none;
+    line-height: 3.3rem;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    
+   }
+
+   
+  .sobre {
+    width: 100%;
+    min-height: 40vh;
+
+    font-size: 17pt;
+    color:#fff;
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+    
+    line-height: 30px;
+    margin-bottom: 17px;
+    border-right: solid 3px #ffffff6a;
+    border-top-right-radius: 275px;
+
+  }
+
+  #sou{
+    padding: 10px;
+  }
+
+  #ft{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 2px ridge white;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+
+  #rd{
+    max-width: 100%;
+    width:100%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .redes{
+    width: 25px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 100%;
+    background-color: #a8a8ff;
+  }
+
+  .redes:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.2);
+    border: 1px solid #f2f5f8;
+    border-radius: 15%;
+    margin: 10px;
+  }
+
+     
+  #final{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 200px;
+    min-height: 50vh;
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    background: linear-gradient(to right, #87CEFA, #ADD8E6);
+  }
+
+
+    .formamigo {
+    width: 300px;
+    max-width:80%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+
+ 
+
+  #cp,h2{
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  input[type="text"],[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #022f3bc4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin:5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 15px;
+    
+  }
+
+  
+   
+  hr{
+    border-color: #fafafc;
+    margin-top: 0;
+  }
+  
+  footer{
+    text-align: center;
+    min-height:50px;
+    background: linear-gradient(to right, #a8a8ff, #ffabf8);
+    padding-top: 25px;
+    clear: both;
+  }
+
+  #txo{
+    font-size: 30px;
+  }
+
+  #obrig{
+    background-image: url(./src/img/clareesc.jpg);
+  }
+
+ /* @media screen and (max-width: 600px) {
+
+    .formamigo {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 15px;
+      padding-right: 50px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      float: left;
+      margin-left: 80px;
+      margin-bottom: 10px;
+    }
+
+    #ft{
+      width: 150px;
+      height: 150px;
+      margin-top: 50px;
+      border: 2px ridge white;
+      border-radius: 50%;
+      float: left;
+  
+    
+    }
+
+
+    #mft{
+      background-color: #022f3b5a;
+      border-top: none;
+      border-bottom-left-radius: 15%;
+      border-top-right-radius: 15%;
+      margin: 0 auto;
+      float: left;
+      margin-left: 107px;
+      padding: 0 30px;
+    }
+
+
+
+
+  }
