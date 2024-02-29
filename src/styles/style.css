@@ -1,20 +1,19 @@
   #topo{
-    padding: 7%;
-    max-height: 20vh;
-    text-align: center;
-    display: block;
+    padding: 5%;
+    height: 15vh;
     border-right: solid 3px #ffffff6a;
     border-bottom-right-radius: 500px;
+    text-align: left;
   }
 
  
   #lc{
     font-size: 5rem;
-    margin-right: 60%;
     color: #87CEFA;
     font-family: "Fleur De Leah", cursive;
     font-weight:lighter;
-    
+    padding-left: 95px; 
+    letter-spacing: 1px;
   }
   
   #iam{
@@ -22,7 +21,7 @@
     float: left;
     margin: 0 100px ;
     margin-right: 50%;
-    color: #98d3f7;
+    color: #fff;
     font-size: 1.7rem;
     font-family: "Josefin Slab", serif;
     font-weight: lighter;
@@ -53,11 +52,11 @@
   }
 
   .secs h1{
-    margin-top: 10px;
-    font-size: 25pt;
+    font-size: 31pt;
     color: #f7d884;
     font-family: "Josefin Slab", serif;
     font-weight: lighter;
+    padding: 5px 0;
   }
   
   #projetos{
@@ -68,7 +67,6 @@
     border-bottom-left-radius: 400px;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px;
   }
 
     video{
@@ -113,11 +111,13 @@
   }
 
   #hb{
-    color: #f7d884;
+    padding: 5px;
+    font-size: 18pt;
   }
 
   #sou{
     padding: 10px;
+    font-size: 19pt;
   }
 
   #ft{
@@ -159,12 +159,11 @@
   #final{
     margin: 0 auto;
     width: 100%;
-    min-height: 200px;
-    min-height: 50vh;
     margin-top: 15px;
     float: left;
     text-align: center;
-    background: linear-gradient(to right, #87CEFA, #ADD8E6);
+    background:#87CEFA;
+    border-radius: 10px;
   }
 
 
@@ -176,25 +175,33 @@
     padding-right: 40px;
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-bottom: 10px;
   }
+
+  .formamigo h1{
+    font-family: "Josefin Slab", serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    }
   
-
- 
-
-  #cp,h2{
+  #cp{
     font-size: 1rem;
-    color: #333;
+    color: #fff;
+  }
+
+  h2{
+    font-size: 1.3rem;
+    font-weight: lighter;
   }
   
   input[type="text"],[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 3px;
   }
   
   .btn {
-    background-color: #022f3bc4;
+    background: linear-gradient( #133b55, #106e8d);
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -213,18 +220,14 @@
   }
 
   
-   
-  hr{
-    border-color: #fafafc;
-    margin-top: 0;
-  }
-  
   footer{
     text-align: center;
     min-height:50px;
-    background: linear-gradient(to right, #a8a8ff, #ffabf8);
     padding-top: 25px;
     clear: both;
+    background: linear-gradient(-255deg, 
+    rgba(106, 9, 121, 0.996) 35%,
+    rgba(0,212,255,1) 100%);
   }
 
   #txo{
@@ -235,44 +238,38 @@
     background-image: url(../src/img/clareesc.jpg);
   }
 
- /* @media screen and (max-width: 600px) {
+  @media only screen and (max-width: 678px) {
+    #projetos {
+      flex-direction: column;
+    }
 
-    .formamigo {
-      max-width: 300px;
-      margin: 0 auto;
-      padding: 15px;
-      padding-right: 50px;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      float: left;
-      margin-left: 80px;
+    video, #lc {
+      width: 85%;
       margin-bottom: 10px;
-    }
-
-    #ft{
-      width: 150px;
-      height: 150px;
-      margin-top: 50px;
-      border: 2px ridge white;
-      border-radius: 50%;
-      float: left;
-  
-    
-    }
-
-
-    #mft{
-      background-color: #022f3b5a;
-      border-top: none;
-      border-bottom-left-radius: 15%;
-      border-top-right-radius: 15%;
-      margin: 0 auto;
-      float: left;
-      margin-left: 107px;
-      padding: 0 30px;
-    }
-
-
-
-
   }
+
+  #iam {
+    margin-left: 0;
+  }
+
+  ul{
+    margin: 35px 0 0 0;
+    padding: 0;
+  }
+
+  #lc {
+  
+  font-size: 4rem;
+  padding: 0;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  #lc {
+  
+    font-size: 3.5rem;
+    padding: 0;
+    }
+}
