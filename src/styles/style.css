@@ -93,6 +93,19 @@
     
    }
 
+   .ferr {
+    font-size:small;
+    font-weight:bolder;
+    color: #faf8f6;
+    border-radius: 5px / 7px;
+    padding: 9px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 9px  #87CEFA inset;
+    letter-spacing: 1px;
+    word-spacing: 0.3px;
+   }
+
    
   .sobre {
     width: 100%;
@@ -111,7 +124,7 @@
   }
 
   #hb{
-    padding: 5px;
+    padding: 7px;
     font-size: 18pt;
   }
 
@@ -163,7 +176,6 @@
     float: left;
     text-align: center;
     background:#87CEFA;
-    border-radius: 10px;
   }
 
 
