@@ -41,7 +41,7 @@
     -webkit-background-clip: text; /* Para WebKit browsers */
     background-clip: text; /* Para outros navegadores que suportam */
     -webkit-text-fill-color: transparent; /* Para WebKit browsers */
-    text-fill-color: transparent; /* Para outros navegadores que suportam */
+    /* text-fill-color: transparent; */
   }
 
   #iam{
@@ -442,7 +442,6 @@
     
   }
 
-  
 
 }
 
