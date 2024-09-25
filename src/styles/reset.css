@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
-    background: rgb(2,0,36);
+    background: #000000;
     /* background: linear-gradient(-255deg, 
     rgba(2,0,36,0.9652193641128326) 0%,
     rgba(106, 9, 121, 0.996) 35%,
@@ -13,6 +13,10 @@ body{
 
 a:visited{
     text-decoration: line-through;
-    color: orange;
+    color: #81807d;
 }
 
+
+ *{
+    max-width: 100%;
+ }
